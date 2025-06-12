@@ -36,7 +36,6 @@ With the **Terminal Weather App**, you tap into real-time weather data using API
    ```bash
    git clone https://github.com/your-username/weather-terminal-app.git
    cd weather-terminal-app
-  ```
 
 2. **Install dependencies**:
 
