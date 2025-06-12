@@ -1,8 +1,8 @@
 import requests
 
 print("Welcome to Weather App!")
-city_name = input("Enter city name: ")
-API_key = '7295ed33a7cfb8f84f8684f61a030f8b'
+city_name = input("Enter city name: ") # Prompt to Enter city name
+API_key = '' # Enter your API key here
 
 url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_key}&units=metric'
 
@@ -23,3 +23,6 @@ if response.status_code == 200:
     print(f'Sea_level = {data['main']['sea_level']}')
     print(f'Ground Level = {data['main']['grnd_level']}')
     print(f'Visibility = {data['visibility']}')
+
+else:
+    print("Error 404")
