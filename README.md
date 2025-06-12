@@ -1,4 +1,4 @@
-🌤️ Terminal Weather Forecast App
+###🌤️ Terminal Weather Forecast App
 
 A simple and beginner-friendly terminal-based weather application built with Python. This project helps you learn how to work with **REST APIs**, handle **JSON data**, and build **interactive CLI applications**.
 
